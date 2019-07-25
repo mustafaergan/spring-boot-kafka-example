@@ -1,11 +1,7 @@
 package com.mustafaergan.kafka.consumer;
 
 import com.mustafaergan.kafka.model.KafkaModel;
-import org.springframework.dao.DataAccessException;
 import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.kafka.support.Acknowledgment;
-import org.springframework.retry.annotation.Backoff;
-import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 
 @Service
